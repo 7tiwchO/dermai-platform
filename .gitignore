@@ -1,0 +1,22 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/dermai.db
+backend/dermai.db-shm
+backend/dermai.db-wal
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# General
+.DS_Store
+*.tflite
